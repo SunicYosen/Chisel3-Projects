@@ -67,8 +67,8 @@ void VMax2::traceInitThis__1(VMax2__Syms* __restrict vlSymsp, VerilatedVcd* vcdp
 	vcdp->declBus  (c+3,"Max2 io_in0",-1,7,0);
 	vcdp->declBus  (c+4,"Max2 io_in1",-1,7,0);
 	vcdp->declBus  (c+5,"Max2 io_out",-1,7,0);
-	// Tracing: Max2 _T_11 // Ignored: Inlined leading underscore at /home/sun/Desktop/Test/ChiselMax/test_run_dir/max2.MaxTester1327650847/Max2.v:8
-	// Tracing: Max2 _T_12 // Ignored: Inlined leading underscore at /home/sun/Desktop/Test/ChiselMax/test_run_dir/max2.MaxTester1327650847/Max2.v:9
+	// Tracing: Max2 _T_11 // Ignored: Inlined leading underscore at /home/sun/Files/RISCV/Projects/MyChiselProjects/ChiselMax/test_run_dir/max2.MaxMain1594292252/Max2.v:8
+	// Tracing: Max2 _T_12 // Ignored: Inlined leading underscore at /home/sun/Files/RISCV/Projects/MyChiselProjects/ChiselMax/test_run_dir/max2.MaxMain1594292252/Max2.v:9
     }
 }
 

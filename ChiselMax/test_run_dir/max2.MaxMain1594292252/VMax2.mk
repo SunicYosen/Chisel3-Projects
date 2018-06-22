@@ -50,7 +50,7 @@ VM_USER_CLASSES = \
 
 # User .cpp directories (from .cpp's on Verilator command line)
 VM_USER_DIR = \
-	/home/sun/Desktop/Test/ChiselMax/test_run_dir/max2.MaxTester1134671023 \
+	/home/sun/Files/RISCV/Projects/MyChiselProjects/ChiselMax/test_run_dir/max2.MaxMain1594292252 \
 
 
 ### Default rules...
@@ -62,7 +62,7 @@ include $(VERILATOR_ROOT)/include/verilated.mk
 ### Executable rules... (from --exe)
 VPATH += $(VM_USER_DIR)
 
-Max2-harness.o: /home/sun/Desktop/Test/ChiselMax/test_run_dir/max2.MaxTester1134671023/Max2-harness.cpp
+Max2-harness.o: /home/sun/Files/RISCV/Projects/MyChiselProjects/ChiselMax/test_run_dir/max2.MaxMain1594292252/Max2-harness.cpp
 	$(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
 
 ### Link rules... (from --exe)

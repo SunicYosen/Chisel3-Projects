@@ -5,7 +5,7 @@ circuit Max2 :
     input reset : UInt<1>
     output io : {flip in0 : UInt<8>, flip in1 : UInt<8>, out : UInt<8>}
     
-    node _T_11 = gt(io.in0, io.in1) @[max2.scala 11:24]
-    node _T_12 = mux(_T_11, io.in0, io.in1) @[max2.scala 11:16]
-    io.out <= _T_12 @[max2.scala 11:10]
+    node _T_11 = gt(io.in0, io.in1) @[max2.scala 12:24]
+    node _T_12 = mux(_T_11, io.in0, io.in1) @[max2.scala 12:16]
+    io.out <= _T_12 @[max2.scala 12:10]
     

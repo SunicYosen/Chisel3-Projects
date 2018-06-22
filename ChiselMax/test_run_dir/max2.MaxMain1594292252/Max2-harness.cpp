@@ -84,7 +84,7 @@ double sc_time_stamp () { return _Top_api->get_time_stamp(); }
 int main(int argc, char **argv, char **env) {
     Verilated::commandArgs(argc, argv);
     VMax2* top = new VMax2;
-    std::string vcdfile = "test_run_dir/max2.MaxTester1327650847/Max2.vcd";
+    std::string vcdfile = "test_run_dir/max2.MaxMain1594292252/Max2.vcd";
     std::vector<std::string> args(argv+1, argv+argc);
     std::vector<std::string>::const_iterator it;
     for (it = args.begin() ; it != args.end() ; it++) {
